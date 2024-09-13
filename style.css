@@ -5,10 +5,6 @@
     font-size: 5;
 }
 
-body {
-    height: 120vh;
-}
-
 header {
     background-color: #272727;
     height: 70px;
@@ -24,7 +20,10 @@ p {
 
 footer {
     background-color: #272727;
-    height: 20vh;
+}
+
+#map {
+    height: 100vh;
 }
 
 .city {
@@ -85,6 +84,8 @@ footer {
     justify-content: center;
     height: 100%;
     box-shadow: 1px 1px 5px #adadad;
+    position: absolute;
+    z-index: 9999;
 }
 
 .climate-data {
@@ -98,12 +99,21 @@ footer {
 
 .final-text {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
+    align-items: center;
 }
 
 .final-text a {
-    color: #5f5f5f;
+    font-style: italic;
+    color: #ebebeb;
+    margin: 10px;
+}
+
+.final-text p {
+    color: #ebebeb;
+    margin: 10px;
+
 }
 
 .search-city {
@@ -145,6 +155,7 @@ footer {
     display: flex;
     align-items: center;
     margin: 10px;
+    z-index: 9999;
 }
 
 .search-city-form{
