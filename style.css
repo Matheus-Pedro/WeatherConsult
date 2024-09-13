@@ -1,0 +1,153 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 5;
+}
+
+body {
+    height: 120vh;
+}
+
+header {
+    background-color: #272727;
+    height: 70px;
+}
+
+i {
+    margin: 10px;
+}
+
+p {
+    width: fit-content;
+}
+
+footer {
+    background-color: #272727;
+    height: 20vh;
+}
+
+.city {
+    background: linear-gradient(90deg, #66a6d1, #757dd6);
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: left bottom;
+    width: fit-content;
+}
+
+.city-text-title {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    color: #4b4b4b;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e9e9;
+    margin: 10px;
+    color: #4b4b4b;
+    padding: 10px;
+    box-shadow: 1px 4px 5px #adadad;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.featured-container {
+    background: linear-gradient(133deg, #66a6d1, #757dd6);
+    color: #fcfcfc;
+}
+
+.featured-container .title {
+    color: #fcfcfc;
+    font-size: 50px;
+}
+
+.information {
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.climate-data-area {
+    margin: 0;
+    width: 30%;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    box-shadow: 1px 1px 5px #adadad;
+}
+
+.climate-data {
+    display: flex;
+    width: 100%;
+}
+
+.centralizer-data {
+    margin-top: 15%;
+}
+
+.final-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.final-text a {
+    color: #5f5f5f;
+}
+
+.search-city {
+    padding: 5px;
+    border:none;
+    width: 300px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.search-city:focus {
+    outline: none;
+    background-color: #ffffff;
+}
+
+.search-city-submit {
+    padding: 5px;
+    border: none;
+    color: #757dd6;
+    background-color: #ffffff00;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.search-city-label {
+    padding: 5px;
+    border: none;
+    color: #757dd6;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.search-city-form form {
+    position: absolute;
+    background-color: #ffffff;
+    width: fit-content; 
+    border-radius: 40px;
+    box-shadow: 1px 1px 5px #adadad;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.search-city-form{
+    display: flex;
+    justify-content: center;
+}
