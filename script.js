@@ -38,7 +38,7 @@ class MyMap {
     }
 }
 
-const API_key = '16772a06eee39bd14505a415edcbf608';
+const API_key = '';
 let city = 'london';
 
 const form = document.getElementById('search');
