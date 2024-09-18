@@ -45,6 +45,8 @@ footer {
     font-size: 30px;
     margin: 10px;
     font-weight: 700;
+    transition: all 1s ease;
+
 }
 
 .container {
@@ -58,7 +60,25 @@ footer {
     box-shadow: 1px 4px 5px #adadad;
     padding-top: 30px;
     padding-bottom: 30px;
+    transition: all 1s ease;
 }
+
+.container:hover {
+    color: #757dd6;
+}
+
+.container:hover .title{
+    color: #757dd6;
+}
+
+.featured-container:hover {
+    color: #ffffff;
+}
+
+.featured-container:hover .title{
+    color: #ffffff;
+}
+
 
 .featured-container {
     background: linear-gradient(133deg, #66a6d1, #757dd6);
